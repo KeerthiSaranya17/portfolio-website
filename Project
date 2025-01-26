@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Portfolio Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #007bff;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 0;
+            background: #e8f1ff;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .project-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+
+        .project-card h3 {
+            margin-top: 0;
+        }
+
+        .project-card p {
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            border-radius: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+    </header>
+
+    <div class="container">
+        <section class="hero">
+            <h1>Hello, I'm [Your Name]</h1>
+            <p>I am a web developer passionate about creating beautiful and functional websites.</p>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3>Project 1: E-commerce Website</h3>
+                    <p>An online shopping platform with a modern user interface and secure checkout.</p>
+                    <button onclick="alert('View Project 1 Details')">View Details</button>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2: Portfolio Website</h3>
+                    <p>A responsive portfolio showcasing projects, skills, and a contact form.</p>
+                    <button onclick="alert('View Project 2 Details')">View Details</button>
+                </div>
+                <div class="project-card">
+                    <h3>Project 3: Blog Platform</h3>
+                    <p>A blogging platform with user authentication and rich text editing features.</p>
+                    <button onclick="alert('View Project 3 Details')">View Details</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>@ 2025 [Your Name]. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // You can add interactive JavaScript features here, such as animations or dynamic loading.
+    </script>
+</body>
+</html>
