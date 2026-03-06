@@ -1,16 +1,146 @@
-# React + Vite
+# 💻 Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal **developer portfolio website** built using **React and Vite** to showcase my projects, technical skills, and background as a software developer.
 
-Currently, two official plugins are available:
+This portfolio highlights my work in **full-stack and front-end development**, providing an overview of my skills, projects, and ways to connect with me.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🏠 Home Section
 
-## Expanding the ESLint configuration
+Introduces who I am and provides a quick overview of my profile.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 👩‍💻 About Me
+
+A section describing my background, interests, and journey in software development.
+
+### 🛠 Skills
+
+Displays the technologies and tools I work with, including:
+
+* Java
+* JavaScript
+* React.js
+* HTML5
+* CSS3
+* SQL
+* Git & GitHub
+
+### 📂 Projects
+
+Highlights some of my development projects such as:
+
+* React E-commerce Website
+* OTP Login System
+* Project Management Dashboard
+
+Each project includes a description and repository link.
+
+### 📞 Contact
+
+Allows visitors and recruiters to reach me through:
+
+* LinkedIn
+* Email
+* GitHub
+
+---
+
+## 🛠 Tech Stack
+
+**Frontend**
+
+* React.js
+* JavaScript
+* HTML5
+* CSS3
+
+**Build Tool**
+
+* Vite
+
+**Version Control**
+
+* Git
+* GitHub
+
+---
+
+## 📂 Project Structure
+
+```text
+portfolio-website
+│
+├── public/                 # Static assets
+├── src/
+│   ├── Components/         # Reusable React components
+│   ├── App.jsx             # Main application component
+│   ├── App.css             # Styling
+│   └── main.jsx            # Entry point
+│
+├── index.html              # Main HTML file
+├── package.json            # Project dependencies
+├── vite.config.js          # Vite configuration
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/KeerthiSaranya17/portfolio-website.git
+```
+
+### Navigate to the project folder
+
+```bash
+cd portfolio-website
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run the development server
+
+```bash
+npm run dev
+```
+
+The application will run locally at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🎯 Purpose of the Project
+
+This project was created to:
+
+* Showcase my **software development projects**
+* Demonstrate **React component architecture**
+* Practice **responsive UI development**
+* Build a professional **developer portfolio**
+
+---
+
+## 👩‍💻 Author
+
+**Keerthi Saranya**
+
+* GitHub: https://github.com/KeerthiSaranya17
+* LinkedIn: https://www.linkedin.com/in/keerthi-saranya-muttha-b380ba287/
+* Email: [mutthakeerthisaranya@gmail.com](mailto:mutthakeerthisaranya@gmail.com)
+
+---
+
+⭐ If you like this project, consider giving it a **star on GitHub**.
