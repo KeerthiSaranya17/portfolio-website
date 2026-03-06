@@ -48,7 +48,7 @@ const Projects = () => {
       image:
         "https://img.freepik.com/free-vector/flat-landing-page-template-hotel-accommodation_23-2150312508.jpg",
       githud: "https://github.com/KeerthiSaranya17",
-      demo: "https://c676qy-5173.csb.app/",
+      demo: "https://sw64td-5173.csb.app/",
     },
   ];
   return (

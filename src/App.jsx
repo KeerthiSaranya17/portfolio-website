@@ -10,7 +10,7 @@ import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-black via-gray-900 to-blue-900
+    <div className="min-h-screen  bg-gradient-to-tr from-[#141E30] via-[#243B55] to-[#3a6073] 
                     transition-colors duration-300 font-inter">
       <Navbar />
       <main>

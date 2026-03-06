@@ -3,7 +3,7 @@ const Experience = () => {
     {
       role: "Frontend React Developer",
       company: "Innocito",
-      duration: "June 2024 – August 2024",
+      duration: "June 2025 – August 2025",
       description:
         "Developed interactive React components, implemented OTP-based login using Redux Toolkit, and optimized UI with Tailwind CSS for a seamless user experience.",
       tech: ["React", "Redux Toolkit", "Tailwind CSS", "JavaScript"],
